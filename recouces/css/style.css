@@ -3,7 +3,15 @@ body {
   font-family: helvetica;
 }
 
-header, footer {
+p {
+  font-size: 14px;
+}
+
+header, footer, .white {
+  color: white;
+}
+
+a {
   color: white;
 }
 
@@ -23,7 +31,14 @@ h3 {
   font-size: 18px;
 }
 
-.footerclass {
+#footerclass {
+  text-align: left;
   font-size: 11px;
   background-color: dimgray;
+}
+
+.pictureback {
+  background-image: url("../images/the-flatiron-building.png");
+  /*background-repeat: no-repeat; */
+  background-position: center;
 }
